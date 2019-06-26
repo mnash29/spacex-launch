@@ -1,4 +1,6 @@
-# spacex-launch
+# spacex-launch-bay
+
+Application using GraphQL, Express, React, Apollo, and the SpaceX API to build a dashboard detailing all SpaceX launch information.
 
 ## Setup and dependencies
 ```sh
