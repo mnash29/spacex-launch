@@ -6,3 +6,8 @@ git clone https://github.com/mnash29/spacex-launch.git
 cd spacex-launch/
 npm install
 ```
+
+## Start Server
+```sh
+npm run dev
+```
