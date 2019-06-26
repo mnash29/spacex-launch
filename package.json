@@ -1,0 +1,29 @@
+{
+  "name": "spacex-launch",
+  "version": "1.0.0",
+  "description": "Application that lists Spacex launch statistics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnash29/spacex-launch.git"
+  },
+  "author": "Matthew Nash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnash29/spacex-launch/issues"
+  },
+  "homepage": "https://github.com/mnash29/spacex-launch#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
