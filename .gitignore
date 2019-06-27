@@ -1,8 +1,11 @@
 # compiled output
-client/public
 /dist
 /tmp
 /out-tsc
+/build
+
+# testing
+/coverage
 
 # dependencies
 /node_modules

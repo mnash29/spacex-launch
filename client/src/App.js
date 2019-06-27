@@ -9,15 +9,13 @@ const client = new ApolloClient({
 	uri: 'http://localhost:5000/graphql'
 });
 
-function App() {
+export default function App() {
   return (
   	<ApolloProvider client={client}>
 	    <div className="container mt-4">
-	      <img src={logo} alt="SpaceX" style={{width: 525, display:'block', margin:'auto'}}/>
+	      <img src={logo} alt="SpaceX" style={{width: 525, display:"block", margin:"auto"}}/>
+	      <Launches className="container"/>
 	    </div>
-	    <Launches />
     </ApolloProvider>
   );
 }
-
-export default App;
